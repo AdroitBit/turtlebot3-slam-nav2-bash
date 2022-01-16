@@ -13,7 +13,7 @@ git clone https://github.com/VeryHardBit/turtlebot3-slam-nav2-bash
 ```
 
 ***
-## Run SLAM (run on different terminals)
+## Run SLAM (run on different terminals for each 'source' commands)
 
 ```
 cd ~/turtlebot3-slam-nav2-bash/map_creation
@@ -31,7 +31,7 @@ source teleop_keyboard.bash
 source save_map.bash
 ```
 ***
-## Run Navigation2 (run on different terminals)
+## Run Navigation2 (run on different terminals for each 'source' commands)
 ```
 cd ~/turtlebot3-slam-nav2-bash/navigation
 
