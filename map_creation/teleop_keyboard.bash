@@ -1,2 +1,2 @@
 export TURTLEBOT3_MODEL=burger
-ros2 run turtlebot3_teleop teleop_keyboard
+ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch

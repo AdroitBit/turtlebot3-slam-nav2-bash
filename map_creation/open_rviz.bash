@@ -1,3 +1,2 @@
 export TURTLEBOT3_MODEL=burger
-ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=True
 roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
