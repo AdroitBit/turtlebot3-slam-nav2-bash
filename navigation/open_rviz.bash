@@ -1,2 +1,3 @@
 export TURTLEBOT3_MODEL=burger
-ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True map:=$HOME/map.yaml
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$SCRIPT_DIR/../map.yaml
