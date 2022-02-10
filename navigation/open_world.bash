@@ -1,3 +1,3 @@
-export TURTLEBOT3_MODEL=burger
+export TURTLEBOT3_MODEL=waffle_pi
 roslaunch turtlebot3_gazebo turtlebot3_world.launch
 #roslaunch turtlebot3_bringup turtlebot3_robot.launch #For real for robot
